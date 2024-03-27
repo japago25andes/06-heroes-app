@@ -1,7 +1,7 @@
 {
   "users": [
     {
-      "id": 1,
+      "id": "1",
       "usuario": "John Doe",
       "email": "john.due@gmail.com"
     }
@@ -16,20 +16,13 @@
       "characters": "Bruce Wayne"
     },
     {
-      "id": "dc-superman",
-      "superhero": "Superman",
-      "publisher": "DC Comics",
-      "alter_ego": "Kal-El",
-      "first_appearance": "Action Comics #1",
-      "characters": "Kal-El"
-    },
-    {
       "id": "dc-flash",
       "superhero": "Flash",
       "publisher": "DC Comics",
       "alter_ego": "Jay Garrick",
       "first_appearance": "Flash Comics #1",
-      "characters": "Jay Garrick, Barry Allen, Wally West, Bart Allen"
+      "characters": "Jay Garrick, Barry Allen, Wally West, Bart Allen",
+      "alt_img": "https://cdn.donmai.us/original/67/9b/679b5316b33aba36def51d425461170d.jpg"
     },
     {
       "id": "dc-green",
@@ -46,14 +39,6 @@
       "alter_ego": "Oliver Queen",
       "first_appearance": "More Fun Comics #73",
       "characters": "Oliver Queen"
-    },
-    {
-      "id": "dc-wonder",
-      "superhero": "Wonder Woman",
-      "publisher": "DC Comics",
-      "alter_ego": "Princess Diana",
-      "first_appearance": "All Star Comics #8",
-      "characters": "Princess Diana"
     },
     {
       "id": "dc-martian",
@@ -166,6 +151,15 @@
       "alter_ego": "Norrin Radd",
       "first_appearance": "The Fantastic Four #48",
       "characters": "Norrin Radd"
+    },
+    {
+      "id": "",
+      "superhero": "Camilo",
+      "publisher": "DC Comics",
+      "alter_ego": "Camilo",
+      "first_appearance": "Camilo",
+      "characters": "Camilo",
+      "alt_img": "https://i.pinimg.com/originals/7d/0b/06/7d0b06045939f3049e0563cf2b3d28b2.jpg"
     }
   ]
 }

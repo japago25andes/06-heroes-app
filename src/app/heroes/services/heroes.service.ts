@@ -29,4 +29,22 @@ export class HeroesService {
       );
   }
 
+  addHero( hero: Hero): Observable<Hero> {
+    return this.http.post<Hero>(`${this.baseUrl}/heroes`, hero);
+  }
+
+  updateHero( hero: Hero): Observable<Hero> {
+    if ( !hero.id ) throw Error('The hero must have an ID');
+
+    return this.http.patch<Hero>(`${this.baseUrl}/heroes/${ hero.id }`, hero);
+  }
+
+  deleteHeroById( id: string ): Observable<boolean> {
+    return this.http.delete(`${this.baseUrl}/heroes/${ id }`)
+      .pipe(
+        map( resp => true),
+        catchError(error => of(false)),
+      );
+  }
+
 }
